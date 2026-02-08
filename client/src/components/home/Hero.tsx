@@ -4,7 +4,7 @@ import { MockupLeft, MockupRight } from "./ProductMockups";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[90vh] w-full overflow-hidden bg-white pt-32 pb-20">
+    <section className="relative min-h-[90vh] w-full overflow-hidden bg-white pt-32 pb-32">
       
       {/* Background Shape */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">

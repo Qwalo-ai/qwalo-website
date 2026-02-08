@@ -26,7 +26,7 @@ export function Features() {
   ];
 
   return (
-    <section className="relative z-20 -mt-20 pb-20 px-4">
+    <section className="relative z-20 -mt-12 pb-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => (
