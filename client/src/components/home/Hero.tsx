@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ChevronRight, Star } from "lucide-react";
-import { MockupLeft, MockupRight } from "./ProductMockups";
+import { MockupLeft, MinorCards } from "./ProductMockups";
 
 export function Hero() {
   return (
@@ -21,12 +21,12 @@ export function Hero() {
       <div className="relative z-10 container mx-auto px-4 text-center max-w-5xl">
         
         {/* Mockups positioned absolute relative to container */}
-        <div className="relative">
+        <div className="relative w-full h-full min-h-[400px]">
             <MockupLeft />
-            <MockupRight />
+            <MinorCards />
             
             {/* Main Content */}
-            <div className="flex flex-col items-center justify-center max-w-3xl mx-auto space-y-8 mt-10">
+            <div className="flex flex-col items-center justify-center max-w-3xl mx-auto space-y-8 mt-10 relative z-20">
             
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 leading-[1.1]">
                 Boost Your Connect Rates by <span className="text-brand-purple">10x</span>
@@ -41,10 +41,10 @@ export function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 pt-4">
-                <Button variant="outline" className="h-14 px-8 rounded-full text-lg font-semibold border-2 border-white bg-white/50 backdrop-blur-sm hover:bg-white text-gray-900 shadow-sm transition-all hover:scale-105">
+                <Button variant="outline" className="h-14 px-8 rounded-full text-lg font-semibold border-2 border-white bg-white/50 backdrop-blur-sm hover:bg-white text-gray-900 shadow-sm transition-all hover:scale-105 cursor-pointer">
                 Schedule Demo
                 </Button>
-                <Button className="h-14 px-8 rounded-full text-lg font-semibold bg-brand-purple hover:bg-brand-purple-dark text-white shadow-xl shadow-brand-purple/20 transition-all hover:scale-105 group">
+                <Button className="h-14 px-8 rounded-full text-lg font-semibold bg-brand-purple hover:bg-brand-purple-dark text-white shadow-xl shadow-brand-purple/20 transition-all hover:scale-105 group cursor-pointer">
                 Try For Free
                 <ChevronRight className="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform" />
                 </Button>
