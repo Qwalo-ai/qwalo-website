@@ -4,14 +4,14 @@ import { MockupLeft, MockupRight } from "./ProductMockups";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[90vh] w-full overflow-hidden bg-white pt-32 pb-32">
+    <section className="relative min-h-[100vh] w-full overflow-hidden bg-white pt-32 pb-48 flex items-center justify-center">
       
       {/* Background Shape */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
         <div 
-            className="absolute top-[-10%] left-[-10%] w-[120%] h-[85%] rounded-[50%_50%_100%_100%/100%_100%_40%_40%] bg-gradient-to-b from-[#FDF4F5] via-[#FFF0F5] to-white opacity-80"
+            className="absolute top-[-10%] left-[-10%] w-[120%] h-[95%] rounded-[0%_0%_50%_50%/0%_0%_30%_30%] bg-gradient-to-b from-[#FDF4F5] via-[#FFF0F5] to-[#ffe4e6] opacity-80"
             style={{
-                background: "radial-gradient(ellipse at top, #ffe4e6 0%, #fff1f2 40%, transparent 70%)"
+                background: "radial-gradient(ellipse at top, #ffe4e6 0%, #fff1f2 60%, #fff0f5 100%)"
             }}
         />
         {/* Subtle decorative blob */}
