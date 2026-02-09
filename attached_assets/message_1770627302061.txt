@@ -1,0 +1,55 @@
+1. What is Qwalo?
+
+Qwalo is an AI-powered qualitative research platform that helps teams conduct in-depth user research through voice-based interviews. It enables marketers, product managers, and research teams to test ideas, validate products, and gather rich consumer insights—faster and at scale.
+
+2. How does AI voice-based interviewing work?
+
+Qwalo uses AI to conduct natural, conversational interviews with respondents via voice. The AI asks adaptive follow-up questions based on responses, just like a skilled human interviewer, helping uncover deeper insights without requiring live moderation.
+
+3. Who is Qwalo built for?
+
+Qwalo is designed for:
+
+- Marketing and brand teams conducting consumer research
+
+- Product managers validating features or concepts
+
+- UX and research teams gathering user feedback
+
+- Startups and enterprises looking to scale qualitative insights quickly
+
+If your team needs faster, deeper customer understanding, Qwalo fits right in.
+
+4. What types of research can I run on Qwalo?
+
+You can use Qwalo for a wide range of qualitative studies, including:
+
+- Concept and idea testing
+
+- Product feedback and usability research
+
+- Brand perception and messaging studies
+
+- Customer discovery and needs assessment
+
+- Post-launch feedback and market validation
+
+5. Which languages does Qwalo support?
+
+Qwalo is built with India in mind. The platform supports multiple Indian languages, allowing you to conduct research in respondents’ native languages for more authentic and accurate insights. Language support will continue to expand over time.
+
+6. How is Qwalo different from surveys or traditional interviews?
+
+Unlike surveys, Qwalo captures why, not just what. And unlike traditional interviews, it doesn’t require scheduling, moderators, or long turnaround times. You get the depth of qualitative interviews with the speed and scalability of AI.
+
+7. How do I get insights from the interviews?
+
+Qwalo automatically transcribes, analyzes, and organizes interviews. You receive structured insights, key themes, and highlights—making it easy to share findings and act on them without manually reviewing hours of recordings.
+
+8. Is Qwalo suitable for enterprise teams?
+
+Yes. Qwalo is built as a secure, scalable B2B SaaS platform. It can support large research volumes, multiple teams, and complex studies while maintaining data privacy and consistency across projects.
+
+9. Do I need research expertise to use Qwalo?
+
+Not at all. Qwalo is designed to be intuitive and easy to use. Whether you’re a seasoned researcher or running your first study, the platform guides you through setup, execution, and analysis.
