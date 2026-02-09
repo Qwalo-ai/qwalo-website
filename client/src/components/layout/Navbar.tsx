@@ -8,10 +8,11 @@ export function Navbar() {
       <div className="bg-white/95 backdrop-blur-sm rounded-full shadow-sm border border-gray-100 pl-6 pr-2 py-2 flex items-center gap-8 max-w-6xl w-full mx-auto transition-all duration-300">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 font-bold text-xl tracking-tight text-gray-900 mr-4 cursor-pointer">
-            <div className="w-8 h-8 bg-brand-purple rounded-lg flex items-center justify-center text-white">
-              <Phone className="w-4 h-4 fill-current" />
-            </div>
-            Qwalo
+            <img 
+              src="/attached_assets/logo_qwalo_-_Edited_1770664578772.png" 
+              alt="Qwalo" 
+              className="h-8 w-auto object-contain" 
+            />
         </Link>
 
         {/* Links */}

@@ -10,10 +10,11 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2 space-y-6">
             <Link href="/" className="flex items-center gap-2 font-bold text-2xl tracking-tight text-gray-900 cursor-pointer">
-                <div className="w-8 h-8 bg-brand-purple rounded-lg flex items-center justify-center text-white">
-                  <Phone className="w-4 h-4 fill-current" />
-                </div>
-                Qwalo AI
+                <img 
+                  src="/attached_assets/logo_qwalo_-_Edited_1770664578772.png" 
+                  alt="Qwalo AI" 
+                  className="h-10 w-auto object-contain" 
+                />
             </Link>
             
             <div className="flex flex-col gap-3">
