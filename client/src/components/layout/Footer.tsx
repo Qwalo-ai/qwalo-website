@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import logoUrl from "@assets/logo.png";
 
 export function Footer() {
   return (
@@ -10,7 +11,7 @@ export function Footer() {
           <div className="col-span-2 lg:col-span-2 space-y-4 pr-8">
             <Link href="/" className="inline-block">
                 <img 
-                  src="/attached_assets/logo_qwalo_-_Edited_1770664578772.png" 
+                  src={logoUrl} 
                   alt="Qwalo AI" 
                   className="h-10 w-auto object-contain" 
                 />

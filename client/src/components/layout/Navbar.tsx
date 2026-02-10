@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Phone } from "lucide-react";
 import { Link } from "wouter";
+import logoUrl from "@assets/logo.png";
 
 export function Navbar() {
   return (
@@ -9,7 +10,7 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 font-bold text-xl tracking-tight text-gray-900 mr-4 cursor-pointer">
             <img 
-              src="/attached_assets/logo_qwalo_-_Edited_1770664578772.png" 
+              src={logoUrl} 
               alt="Qwalo" 
               className="h-8 w-auto object-contain" 
             />
