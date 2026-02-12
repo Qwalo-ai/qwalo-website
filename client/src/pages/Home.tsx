@@ -2,6 +2,8 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Hero } from "@/components/home/Hero";
 import { Features } from "@/components/home/Features";
 import { FAQ } from "@/components/home/FAQ";
+import { HowItWorks } from "@/components/home/HowItWorks";
+import { Solutions } from "@/components/home/Solutions";
 import { Footer } from "@/components/layout/Footer";
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
       <main>
         <Hero />
         <Features />
+        <HowItWorks />
+        <Solutions />
         <FAQ />
       </main>
       <Footer />
