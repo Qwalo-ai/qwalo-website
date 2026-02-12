@@ -18,7 +18,7 @@ export function Hero() {
           <MockupLeft />
           <MinorCards />
 
-          <div className="flex flex-col items-center justify-center max-w-4xl mx-auto space-y-8 mt-10 relative z-20">
+          <div className="flex flex-col items-center justify-center max-w-4xl mx-auto space-y-8 mt-10 relative z-20 px-4 md:px-10 xl:px-36">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 leading-[1.1]">
               Capture the "Why" with <span className="text-brand-purple">AI-Powered Voice Interviews</span>
             </h1>
