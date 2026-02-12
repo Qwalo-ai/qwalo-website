@@ -12,6 +12,10 @@ export function FAQ() {
       answer: "Qwalo is an AI-powered qualitative research platform that helps teams conduct in-depth user research through voice-based interviews. It enables marketers, product managers, and research teams to test ideas, validate products, and gather rich consumer insights—faster and at scale."
     },
     {
+      question: "Which languages does Qwalo support?",
+      answer: "Qwalo is built with India in mind. The platform supports multiple Indian languages, allowing you to conduct research in respondents’ native languages for more authentic and accurate insights. Language support will continue to expand over time."
+    },
+    {
       question: "How does AI voice-based interviewing work?",
       answer: "Qwalo uses AI to conduct natural, conversational interviews with respondents via voice. The AI asks adaptive follow-up questions based on responses, just like a skilled human interviewer, helping uncover deeper insights without requiring live moderation."
     },
@@ -44,10 +48,6 @@ export function FAQ() {
           </ul>
         </div>
       )
-    },
-    {
-      question: "Which languages does Qwalo support?",
-      answer: "Qwalo is built with India in mind. The platform supports multiple Indian languages, allowing you to conduct research in respondents’ native languages for more authentic and accurate insights. Language support will continue to expand over time."
     },
     {
       question: "How is Qwalo different from surveys or traditional interviews?",
