@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { Link } from "wouter";
-import logoUrl from "@assets/logo.png";
+import logoUrl from "@assets/qwalo-bg.png";
 
 const navGroups = [
   { name: "Product", items: ["Features", "How It Works", "Languages Supported", "Security"] },
