@@ -210,7 +210,11 @@ export default function WorkspaceDetail() {
   };
 
   return (
-    <DashboardLayout organizationName={workspace.organizationName}>
+    <DashboardLayout
+      organizationName={workspace.organizationName}
+      workspaceName={workspace.name}
+      workspaceId={workspace.id}
+    >
       <div className="space-y-8">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
