@@ -2,22 +2,27 @@ import { Link, useLocation } from "wouter";
 import { ReactNode, useMemo, useState } from "react";
 import logoUrl from "@assets/logo.png";
 import { Button } from "@/components/ui/button";
-import { LayoutDashboard, LogOut, PanelLeftClose, PanelLeftOpen, Building2 } from "lucide-react";
+import { LayoutDashboard, LogOut, PanelLeftClose, PanelLeftOpen, Building2, FolderKanban } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface DashboardLayoutProps {
   children: ReactNode;
   /** Organization/workspace name shown in header when inside a workspace */
   organizationName?: string | null;
+  /** Current workspace context for sidebar navigation */
+  workspaceName?: string | null;
+  workspaceId?: string | null;
 }
 
 /**
  * Wraps dashboard pages with consistent layout and nav.
  */
-export function DashboardLayout({ children, organizationName }: DashboardLayoutProps) {
+export function DashboardLayout({ children, organizationName, workspaceName, workspaceId }: DashboardLayoutProps) {
   const [location] = useLocation();
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const isDashboardRoot = location === "/dashboard" || location === "/dashboard/";
+  const workspaceHref = workspaceId ? `/dashboard/workspaces/${workspaceId}` : null;
+  const isWorkspacePage = Boolean(workspaceHref && location === workspaceHref);
 
   const navItems = useMemo(
     () => [
@@ -27,8 +32,18 @@ export function DashboardLayout({ children, organizationName }: DashboardLayoutP
         icon: LayoutDashboard,
         isActive: isDashboardRoot,
       },
+      ...(workspaceHref && workspaceName
+        ? [
+            {
+              href: workspaceHref,
+              label: workspaceName,
+              icon: FolderKanban,
+              isActive: isWorkspacePage,
+            },
+          ]
+        : []),
     ],
-    [isDashboardRoot]
+    [isDashboardRoot, isWorkspacePage, workspaceHref, workspaceName]
   );
 
   return (
